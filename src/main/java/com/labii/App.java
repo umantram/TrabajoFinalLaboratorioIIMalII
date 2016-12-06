@@ -2,14 +2,13 @@ package com.labii;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
 
 /**
  * Hello world!
  *
  */
 
-/*
+/**
 #
 Muchos desarrolladores de Spring Boot siempre tienen su clase principal anotada con
 @Configuration, @EnableAutoConfiguration y @ComponentScan.
@@ -22,9 +21,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        //http://localhost:8080
+        /**/http://localhost:8080
 
-        /*
+        /**
 
         #
         El método main () utiliza el método SpringApplication.run () de Spring Boot para iniciar una aplicación.
@@ -41,7 +40,7 @@ public class App
 }
 
 
-//Para que funcione con la consola de Intelij sin la necesidad de un Posman
+/**Para que funcione con la consola de Intelij sin la necesidad de un Posman
 /*
     @Bean
     public RestTemplate getRestTemplate() {

@@ -18,11 +18,11 @@ public class EventoManejoDatos {
 
         Evento evento1 = new Evento(contador.incrementAndGet(), "limpiar" , "Tengo que limpiar mi Pieza", "Rojo",
                          new Fecha(10,01,2016,20,30), new Fecha(10,01,2016,21,30),1);
-        //Evento evento2 = new Evento(contador.incrementAndGet(), "Estudiar", "Tengo que estudiar para Lab", "Verde",
+        /**Evento evento2 = new Evento(contador.incrementAndGet(), "Estudiar", "Tengo que estudiar para Lab", "Verde",
         //                 new Fecha(15,01,2016,15,30), new Fecha(15,01,2016,16,30), 1);
 
         //Evento evento3 = new Evento(contador.incrementAndGet(), "trabajar",2, "Tengo que terminar mi desarrollo de la Api",
-        //                 new Fecha(9,1,2016,3,30), new Fecha(9,1,2016,4,30), "Azul");
+        //                 new Fecha(9,1,2016,3,30), new Fecha(9,1,2016,4,30), "Azul");*/
 
         listaEventos.put(evento1.getIdEvento(), evento1);
         //listaEventos.put(evento2.getIdEvento(), evento2);

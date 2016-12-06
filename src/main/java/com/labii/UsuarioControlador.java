@@ -62,7 +62,7 @@ public class UsuarioControlador {
         UsuarioManejoDatos.modifUsuario(idUsuario, usuario.getEmail());
     }
 
-    /*
+    /**
     @RequestMapping(value = "/usuarios/filtro", method = RequestMethod.GET)
     public Collection<Usuario> getPorEmail(@RequestParam(value = "email", defaultValue = "all") String email){
         if (email.equals("all")){

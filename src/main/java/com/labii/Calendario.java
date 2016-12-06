@@ -1,13 +1,10 @@
 package com.labii;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Created by umantram on 27/11/16.
  */
 
-/*
+/**
 #
 Esta clase contiene los datos para la creacion de un Calendario
 #
@@ -53,9 +50,11 @@ public class Calendario {
         return usuario;
     }
 
-    //public List<Evento> getEventos() {
-    //    return eventos;
-    //}
+    /**
+     * public List<Evento> getEventos() {
+     *    return eventos;
+     *}
+     * */
 
     public Integer getIdUsuario() {
         return idUsuario;

@@ -19,7 +19,6 @@ public class Evento {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.calendario = CalendarioManejoDatos.getCalendario(idCalendario);
-
         this.fechaInicio = fechaInicio;
         this.fechaFin = fechaFin;
         this.color = color;
